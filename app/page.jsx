@@ -4,6 +4,8 @@
 import { motion } from "framer-motion";
 import Flux from "@components/Flux";
 
+export const revalidate = 1; //revalidate api every 1 second
+
 const Home = () => {
   return (
     <section className='w-full flex-center flex-col'>
