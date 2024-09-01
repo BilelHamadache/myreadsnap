@@ -1,5 +1,5 @@
 //Render a Home Page- par default React 18 & NextJs 13 use SSR 
-//'use client';
+'use client';
 //import React from 'react';
 import { motion } from "framer-motion";
 import Flux from "@components/Flux";
