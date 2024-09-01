@@ -1,5 +1,6 @@
 import { connectToDB } from "@utils/database";
 import Extrait from "@models/extrait";
+export const revalidate = 1; //revalidate api every 1 second
 
 export const GET = async (req) => {
 
